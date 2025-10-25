@@ -1,0 +1,802 @@
+[25Oct2025 00:37:28.627] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[25Oct2025 00:37:28.633] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.16 by Ubuntu; OS Linux arch amd64 version 6.8.0-1030-azure
+[25Oct2025 00:37:31.247] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[25Oct2025 00:37:31.380] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/server-maicra/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[25Oct2025 00:37:31.826] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server-maicra/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[25Oct2025 00:37:31.829] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server-maicra/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[25Oct2025 00:37:31.830] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server-maicra/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[25Oct2025 00:37:31.831] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server-maicra/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[25Oct2025 00:37:32.000] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
+[25Oct2025 00:37:34.140] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[25Oct2025 00:37:34.292] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[25Oct2025 00:37:34.332] [main/WARN] [mixin/]: Reference map 'graveyard-FORGE-forge-refmap.json' for graveyard-forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[25Oct2025 00:37:34.342] [main/WARN] [mixin/]: Reference map 'mvs-forge-refmap.json' for mvs-forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[25Oct2025 00:37:35.604] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
+[25Oct2025 00:37:35.605] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/Screen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER)
+[25Oct2025 00:37:35.605] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.Screen was not found relics.mixins.json:ScreenMixin
+[25Oct2025 00:37:43.027] [main/WARN] [mixin/]: Mixin alexscaves.mixins.json:SwampHutPieceMixin has multiple constructors, (Lnet/minecraft/world/level/levelgen/structure/pieces/StructurePieceType;IIIIIILnet/minecraft/core/Direction;)V was selected
+
+[25Oct2025 00:37:43.713] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialize mod Library Ferret
+[25Oct2025 00:37:43.729] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialized mod Library Ferret
+[25Oct2025 00:37:44.018] [modloading-worker-0/INFO] [graveyard/]: Registered JSON trade offer adapter.
+[25Oct2025 00:37:44.862] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[25Oct2025 00:37:44.892] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[25Oct2025 00:37:44.892] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[25Oct2025 00:37:47.837] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.github.alexmodguy.alexscaves.server.entity.living.TremorzillaEntity from class com.github.alexmodguy.alexscaves.server.entity.living.LicowitchEntity
+[25Oct2025 00:37:48.625] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
+[25Oct2025 00:37:48.968] [main/INFO] [journeymap/]: Initializing Packet Registries
+[25Oct2025 00:37:49.053] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: UP_TO_DATE Current: 5.10.3 Target: null
+[25Oct2025 00:37:49.054] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[25Oct2025 00:37:49.113] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Oct2025 00:37:49.114] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Oct2025 00:37:49.114] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Oct2025 00:37:49.114] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Oct2025 00:37:49.115] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Oct2025 00:37:49.115] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Oct2025 00:37:49.115] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Oct2025 00:37:49.115] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Oct2025 00:37:49.116] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Oct2025 00:37:49.116] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Oct2025 00:37:49.117] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Oct2025 00:37:49.117] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Oct2025 00:37:49.118] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Oct2025 00:37:49.118] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Oct2025 00:37:49.118] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Oct2025 00:37:49.119] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Oct2025 00:37:49.119] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Oct2025 00:37:49.119] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Oct2025 00:37:49.120] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Oct2025 00:37:49.120] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Oct2025 00:37:49.120] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Oct2025 00:37:49.120] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Oct2025 00:37:49.121] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Oct2025 00:37:49.121] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Oct2025 00:37:49.122] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Oct2025 00:37:49.122] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Oct2025 00:37:49.124] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Oct2025 00:37:49.124] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Oct2025 00:37:49.125] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Oct2025 00:37:49.125] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Oct2025 00:37:49.125] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Oct2025 00:37:49.126] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Oct2025 00:37:49.126] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Oct2025 00:37:49.126] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Oct2025 00:37:49.126] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Oct2025 00:37:49.126] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Oct2025 00:37:49.129] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Oct2025 00:37:49.129] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Oct2025 00:37:49.233] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
+[25Oct2025 00:37:51.386] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[25Oct2025 00:37:51.545] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Oct2025 00:37:51.545] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Oct2025 00:37:51.546] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Oct2025 00:37:51.546] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Oct2025 00:37:51.546] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Oct2025 00:37:51.546] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Oct2025 00:37:51.546] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Oct2025 00:37:51.546] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Oct2025 00:37:51.547] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Oct2025 00:37:51.547] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Oct2025 00:37:51.547] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Oct2025 00:37:51.547] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Oct2025 00:37:51.547] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Oct2025 00:37:51.547] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Oct2025 00:37:51.548] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Oct2025 00:37:51.548] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Oct2025 00:37:51.548] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Oct2025 00:37:51.548] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Oct2025 00:37:51.548] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Oct2025 00:37:51.548] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Oct2025 00:37:51.549] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Oct2025 00:37:51.549] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Oct2025 00:37:51.549] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Oct2025 00:37:51.549] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Oct2025 00:37:51.549] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Oct2025 00:37:51.549] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Oct2025 00:37:51.550] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Oct2025 00:37:51.550] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Oct2025 00:37:51.550] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Oct2025 00:37:51.550] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Oct2025 00:37:51.550] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Oct2025 00:37:51.550] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Oct2025 00:37:51.550] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Oct2025 00:37:51.551] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Oct2025 00:37:51.551] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Oct2025 00:37:51.551] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Oct2025 00:37:51.551] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Oct2025 00:37:51.551] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Oct2025 00:37:51.622] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Oct2025 00:37:51.622] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Oct2025 00:37:51.622] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Oct2025 00:37:51.623] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Oct2025 00:37:51.623] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Oct2025 00:37:51.623] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Oct2025 00:37:51.623] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Oct2025 00:37:51.623] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Oct2025 00:37:51.624] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Oct2025 00:37:51.624] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Oct2025 00:37:51.624] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Oct2025 00:37:51.624] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Oct2025 00:37:51.624] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Oct2025 00:37:51.624] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Oct2025 00:37:51.625] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Oct2025 00:37:51.625] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Oct2025 00:37:51.625] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Oct2025 00:37:51.625] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Oct2025 00:37:51.625] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Oct2025 00:37:51.625] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Oct2025 00:37:51.626] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Oct2025 00:37:51.626] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Oct2025 00:37:51.626] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Oct2025 00:37:51.626] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Oct2025 00:37:51.627] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Oct2025 00:37:51.627] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Oct2025 00:37:51.627] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Oct2025 00:37:51.627] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Oct2025 00:37:51.627] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Oct2025 00:37:51.627] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Oct2025 00:37:51.628] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Oct2025 00:37:51.628] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Oct2025 00:37:51.628] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Oct2025 00:37:51.628] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Oct2025 00:37:51.629] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Oct2025 00:37:51.629] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Oct2025 00:37:51.629] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Oct2025 00:37:51.629] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Oct2025 00:37:52.933] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/server-maicra/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23167!/assets/.mcassetsroot' uses unexpected schema
+[25Oct2025 00:37:52.933] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/server-maicra/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23167!/data/.mcassetsroot' uses unexpected schema
+[25Oct2025 00:37:53.047] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Successfully loaded 0 data remolders!
+[25Oct2025 00:37:53.512] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeonocean:brigantine/start_pool`: { spacing: 50, separation: 25, salt: 254835856, useValueFromConfiguration: true}
+[25Oct2025 00:37:53.516] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeonocean:frigate_large/start_pool`: { spacing: 50, separation: 25, salt: 35482856, useValueFromConfiguration: true}
+[25Oct2025 00:37:53.517] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeonocean:frigate_medium/start_pool`: { spacing: 50, separation: 25, salt: 45482856, useValueFromConfiguration: true}
+[25Oct2025 00:37:53.539] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeonocean:ocean_cage/start_pool`: { spacing: 50, separation: 25, salt: 40842806, useValueFromConfiguration: true}
+[25Oct2025 00:37:53.540] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeonocean:ocean_quad/start_pool`: { spacing: 50, separation: 25, salt: 254835856, useValueFromConfiguration: true}
+[25Oct2025 00:37:53.540] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeonocean:ocean_ruin_pillager/start_pool`: { spacing: 50, separation: 25, salt: 254145856, useValueFromConfiguration: true}
+[25Oct2025 00:37:53.540] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeonocean:ocean_ruin_vanilla_temple/start_pool`: { spacing: 50, separation: 25, salt: 25482856, useValueFromConfiguration: true}
+[25Oct2025 00:37:53.541] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeonocean:ocean_temple_quad/start_pool`: { spacing: 50, separation: 25, salt: 35482856, useValueFromConfiguration: true}
+[25Oct2025 00:37:53.542] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeonocean:ocean_the_column_temple/start_pool`: { spacing: 50, separation: 25, salt: 15482856, useValueFromConfiguration: true}
+[25Oct2025 00:37:53.542] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeonocean:ocean_warn_temple/start_pool`: { spacing: 50, separation: 25, salt: 45482856, useValueFromConfiguration: true}
+[25Oct2025 00:37:55.350] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
+[25Oct2025 00:37:56.262] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Loot Modification Manager has loaded 6 modifier groups
+[25Oct2025 00:37:56.307] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:arphex:entities/long_legs}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[25Oct2025 00:37:56.307] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:arphex:entities/silverfish_spectre}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[25Oct2025 00:37:56.307] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:arphex:entities/ant_arsonist}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[25Oct2025 00:37:56.308] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:arphex:entities/millipede_marauder}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[25Oct2025 00:37:56.308] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_furnace_boat as it's serializer returned null
+[25Oct2025 00:37:56.311] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_planks_from_driftwood_logs_sawing as it's serializer returned null
+[25Oct2025 00:37:56.314] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_button_from_river_planks_sawing as it's serializer returned null
+[25Oct2025 00:37:56.314] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_button_from_river_logs_sawing as it's serializer returned null
+[25Oct2025 00:37:56.315] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_door_from_river_logs_sawing as it's serializer returned null
+[25Oct2025 00:37:56.316] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:trapped_river_chest as it's serializer returned null
+[25Oct2025 00:37:56.319] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_bookshelf as it's serializer returned null
+[25Oct2025 00:37:56.324] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_boards as it's serializer returned null
+[25Oct2025 00:37:56.329] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_fence_from_river_planks_sawing as it's serializer returned null
+[25Oct2025 00:37:56.334] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_boards_from_driftwood_logs_sawing as it's serializer returned null
+[25Oct2025 00:37:56.336] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_slab_from_river_logs_sawing as it's serializer returned null
+[25Oct2025 00:37:56.337] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_slab_from_driftwood_planks_sawing as it's serializer returned null
+[25Oct2025 00:37:56.338] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:chiseled_river_bookshelf as it's serializer returned null
+[25Oct2025 00:37:56.342] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_ladder_from_driftwood_planks_sawing as it's serializer returned null
+[25Oct2025 00:37:56.345] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:chiseled_driftwood_bookshelf as it's serializer returned null
+[25Oct2025 00:37:56.347] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_beehive as it's serializer returned null
+[25Oct2025 00:37:56.360] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_fence_from_driftwood_planks_sawing as it's serializer returned null
+[25Oct2025 00:37:56.361] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_ladder_from_river_planks_sawing as it's serializer returned null
+[25Oct2025 00:37:56.364] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_ladder_from_river_logs_sawing as it's serializer returned null
+[25Oct2025 00:37:56.364] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_boards as it's serializer returned null
+[25Oct2025 00:37:56.364] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_stairs_from_river_planks_sawing as it's serializer returned null
+[25Oct2025 00:37:56.365] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_chest as it's serializer returned null
+[25Oct2025 00:37:56.366] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_sign_from_river_logs_sawing as it's serializer returned null
+[25Oct2025 00:37:56.368] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_chest as it's serializer returned null
+[25Oct2025 00:37:56.369] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_boards_from_river_planks_sawing as it's serializer returned null
+[25Oct2025 00:37:56.376] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:large_river_boat as it's serializer returned null
+[25Oct2025 00:37:56.377] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_fence_from_river_logs_sawing as it's serializer returned null
+[25Oct2025 00:37:56.378] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_ladder as it's serializer returned null
+[25Oct2025 00:37:56.378] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_fence_gate_from_driftwood_logs_sawing as it's serializer returned null
+[25Oct2025 00:37:56.380] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_planks_from_river_logs_sawing as it's serializer returned null
+[25Oct2025 00:37:56.383] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_slab_from_driftwood_logs_sawing as it's serializer returned null
+[25Oct2025 00:37:56.384] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_beehive as it's serializer returned null
+[25Oct2025 00:37:56.386] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_pressure_plate_from_driftwood_logs_sawing as it's serializer returned null
+[25Oct2025 00:37:56.386] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_trapdoor_from_river_logs_sawing as it's serializer returned null
+[25Oct2025 00:37:56.387] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_trapdoor_from_driftwood_logs_sawing as it's serializer returned null
+[25Oct2025 00:37:56.388] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_sign_from_driftwood_logs_sawing as it's serializer returned null
+[25Oct2025 00:37:56.390] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_boards_from_river_logs_sawing as it's serializer returned null
+[25Oct2025 00:37:56.391] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_leaf_pile as it's serializer returned null
+[25Oct2025 00:37:56.393] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_furnace_boat as it's serializer returned null
+[25Oct2025 00:37:56.394] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_stairs_from_river_logs_sawing as it's serializer returned null
+[25Oct2025 00:37:56.397] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_stairs_from_driftwood_planks_sawing as it's serializer returned null
+[25Oct2025 00:37:56.398] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_button_from_driftwood_planks_sawing as it's serializer returned null
+[25Oct2025 00:37:56.398] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_fence_gate_from_river_logs_sawing as it's serializer returned null
+[25Oct2025 00:37:56.398] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_pressure_plate_from_river_logs_sawing as it's serializer returned null
+[25Oct2025 00:37:56.399] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:trapped_driftwood_chest as it's serializer returned null
+[25Oct2025 00:37:56.400] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_button_from_driftwood_logs_sawing as it's serializer returned null
+[25Oct2025 00:37:56.401] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_fence_from_driftwood_logs_sawing as it's serializer returned null
+[25Oct2025 00:37:56.404] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:large_driftwood_boat as it's serializer returned null
+[25Oct2025 00:37:56.406] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_boards_from_driftwood_planks_sawing as it's serializer returned null
+[25Oct2025 00:37:56.408] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_door_from_driftwood_logs_sawing as it's serializer returned null
+[25Oct2025 00:37:56.412] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_ladder as it's serializer returned null
+[25Oct2025 00:37:56.413] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_slab_from_river_planks_sawing as it's serializer returned null
+[25Oct2025 00:37:56.415] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_bookshelf as it's serializer returned null
+[25Oct2025 00:37:56.416] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_leaves_from_leaf_piles as it's serializer returned null
+[25Oct2025 00:37:56.420] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe taxov:x_trim_smithing_template_smithing_trim
+com.google.gson.JsonSyntaxException: Unknown item 'taxov:pirate_block'
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151278_(ShapedRecipe.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:219) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge-1.20.1-47.3.7-universal.jar%23172!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:148) ~[forge-1.20.1-47.3.7-universal.jar%23172!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_288218_(Ingredient.java:194) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43917_(Ingredient.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
+	at net.minecraft.world.item.crafting.SmithingTrimRecipe$Serializer.m_6729_(SmithingTrimRecipe.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
+	at net.minecraft.world.item.crafting.SmithingTrimRecipe$Serializer.m_6729_(SmithingTrimRecipe.java:100) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.3.7-universal.jar%23172!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[25Oct2025 00:37:56.423] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_stairs_from_driftwood_logs_sawing as it's serializer returned null
+[25Oct2025 00:37:56.424] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_ladder_from_driftwood_logs_sawing as it's serializer returned null
+[25Oct2025 00:37:56.429] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 9 recipes
+[25Oct2025 00:37:56.446] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Advancement Modification Manager has loaded 8 modifier groups
+[25Oct2025 00:37:56.461] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement knightquest:recipes/misc/great_chalice: Missing criteria, expected to find a JsonObject
+[25Oct2025 00:37:56.462] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement knightquest:recipes/misc/great_essence_to_small_essence: Missing criteria, expected to find a JsonObject
+[25Oct2025 00:37:56.494] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement knightquest:recipes/misc/totem_of_undying_to_small_essence: Missing criteria, expected to find a JsonObject
+[25Oct2025 00:37:56.500] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement knightquest:recipes/misc/empty_goblet: Missing criteria, expected to find a JsonObject
+[25Oct2025 00:37:56.528] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement knightquest:recipes/misc/small_essence_to_great_essence: Missing criteria, expected to find a JsonObject
+[25Oct2025 00:37:56.545] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement knightquest:recipes/misc/elytra_to_small_essence: Missing criteria, expected to find a JsonObject
+[25Oct2025 00:37:56.566] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement knightquest:recipes/misc/nether_star_to_small_essence: Missing criteria, expected to find a JsonObject
+[25Oct2025 00:37:56.589] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement knightquest:recipes/misc/heart_of_the_sea_to_small_essence: Missing criteria, expected to find a JsonObject
+[25Oct2025 00:37:56.619] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2214 advancements
+[25Oct2025 00:37:56.630] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 11 curio slots
+[25Oct2025 00:37:56.634] [main/ERROR] [top.theillusivec4.curios.Curios/]: talisman is not a registered slot type!
+[25Oct2025 00:37:56.636] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
+[25Oct2025 00:37:56.647] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Chunk Generator Modification Manager has loaded 0 modifier groups
+[25Oct2025 00:37:56.665] [main/WARN] [net.minecraft.core.MappedRegistry/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:worldgen/biome] are present in data pack: mod:crawling_biomes
+[25Oct2025 00:37:58.161] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[25Oct2025 00:37:58.162] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[25Oct2025 00:37:58.162] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[25Oct2025 00:37:58.162] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[25Oct2025 00:37:58.328] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[25Oct2025 00:37:58.354] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[25Oct2025 00:37:58.446] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[25Oct2025 00:37:58.446] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[25Oct2025 00:37:58.447] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[25Oct2025 00:37:58.447] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[25Oct2025 00:37:58.465] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[25Oct2025 00:37:58.466] [Thread-1/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[25Oct2025 00:37:58.467] [Thread-1/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[25Oct2025 00:37:58.588] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[25Oct2025 00:38:10.382] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[25Oct2025 00:38:14.751] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Oct2025 00:38:14.772] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Oct2025 00:38:14.779] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Oct2025 00:38:14.787] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Oct2025 00:38:14.794] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Oct2025 00:38:14.806] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Oct2025 00:38:14.819] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Oct2025 00:38:14.829] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Oct2025 00:38:14.839] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Oct2025 00:38:14.892] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Oct2025 00:38:15.401] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Oct2025 00:38:15.883] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
+[25Oct2025 00:38:16.383] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 69%
+[25Oct2025 00:38:16.605] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 6222 ms
+[25Oct2025 00:38:16.605] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (18.145s)! For help, type "help"
+[25Oct2025 00:38:16.680] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[25Oct2025 00:38:16.723] [Server thread/INFO] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: item config parser finished, item count: 14
+[25Oct2025 00:38:16.724] [Server thread/INFO] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: item config parser finished, item count: 17
+[25Oct2025 00:38:16.724] [Server thread/INFO] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: item config parser finished, item count: 16
+[25Oct2025 00:38:16.725] [Server thread/INFO] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: InfernalMobsCore commonSetup completed! Modifiers ready: 28
+[25Oct2025 00:38:16.725] [Server thread/INFO] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: InfernalMobsCore commonSetup completed! config file at: /workspaces/server-maicra/servidor_minecraft/./config/infernalmobs.cfg
+[25Oct2025 00:41:50.470] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: cat54gamer[/100.65.1.77:57764] logged in with entity id 216 at (1.5592662568598186, 79.0, -15.9017147941494)
+[25Oct2025 00:41:50.511] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: cat54gamer joined the game
+[25Oct2025 00:43:39.101] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: cat54gamer has made the advancement [Diamonds!]
+[25Oct2025 00:44:09.664] [Netty Epoll Server IO #5/ERROR] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channels [horror_element_mod:horror_element_mod,alexsmobs:main_channel] rejected their client side version number
+[25Oct2025 00:44:09.664] [Netty Epoll Server IO #5/ERROR] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Terminating connection with client, mismatched mod list
+[25Oct2025 00:44:09.688] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@f8fb7ec[id=<null>,name=Bozz,properties={},legacy=false] (/100.92.227.52:50547) lost connection: Connection closed - mismatched mod channel list
+[25Oct2025 00:44:58.647] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: cat54gamer has made the advancement ['X' Marks the Spot]
+[25Oct2025 00:45:06.184] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@751f437f[id=<null>,name=Bozz,properties={},legacy=false] (/100.92.227.52:50558) lost connection: Disconnected
+[25Oct2025 00:45:59.789] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Bozz[/100.92.227.52:62249] logged in with entity id 1529 at (-4.5, 78.0, 7.5)
+[25Oct2025 00:45:59.795] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bozz joined the game
+[25Oct2025 00:47:02.962] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Made cat54gamer a server operator
+[25Oct2025 00:47:06.476] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [cat54gamer: Set the time to 1000]
+[25Oct2025 00:47:14.032] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: cat54gamer has made the advancement [Monster Hunter]
+[25Oct2025 00:47:15.739] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: cat54gamer has made the advancement [Knight Quest]
+[25Oct2025 00:47:44.853] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-2, y=78, z=18} BlockPos{x=-7, y=79, z=14}
+[25Oct2025 00:47:45.850] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-2, y=78, z=18} BlockPos{x=-7, y=79, z=14}
+[25Oct2025 00:49:01.135] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bozz has made the advancement [Stone Age]
+[25Oct2025 00:49:03.300] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-9, y=82, z=17} BlockPos{x=-9, y=81, z=16}
+[25Oct2025 00:49:13.302] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Made Bozz a server operator
+[25Oct2025 00:49:24.449] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bozz has made the advancement [Getting an Upgrade]
+[25Oct2025 00:49:42.533] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: cat54gamer has made the advancement [Getting an Upgrade]
+[25Oct2025 00:49:50.484] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: cat54gamer has made the advancement [Stone Age]
+[25Oct2025 00:50:27.233] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bozz has made the advancement [Diamonds!]
+[25Oct2025 00:51:00.309] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bozz has made the advancement ['X' Marks the Spot]
+[25Oct2025 00:52:45.993] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Rejecting UseItemOnPacket from cat54gamer: Location (43.08899686485529, 64.0625, 84.66160142421722) too far away from hit block BlockPos{x=43, y=64, z=83}.
+[25Oct2025 00:52:45.993] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Rejecting UseItemOnPacket from cat54gamer: Location (43.08899686485529, 64.0625, 84.66160142421722) too far away from hit block BlockPos{x=43, y=64, z=83}.
+[25Oct2025 00:54:25.680] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: cat54gamer has made the advancement [The Parrots and the Bats]
+[25Oct2025 00:54:51.709] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bozz has made the advancement [Barrel Booty]
+[25Oct2025 00:54:53.794] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: cat54gamer has made the advancement [Barrel Booty]
+[25Oct2025 00:56:05.093] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: cat54gamer has made the advancement [Mine? Mine? Mine?]
+[25Oct2025 00:57:05.580] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bozz has made the advancement [Mine? Mine? Mine?]
+[25Oct2025 00:58:57.455] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: cat54gamer has completed the challenge [Find: Ruin pillager]
+[25Oct2025 00:58:57.457] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: cat54gamer has completed the challenge [Find: Ruin pillager]
+[25Oct2025 00:58:57.791] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bozz has completed the challenge [Find: Ruin pillager]
+[25Oct2025 00:58:57.791] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bozz has completed the challenge [Find: Ruin pillager]
+[25Oct2025 00:59:07.327] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: cat54gamer has made the advancement [Acquire Hardware]
+[25Oct2025 00:59:23.212] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bozz has made the advancement [Acquire Hardware]
+[25Oct2025 01:01:06.968] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [cat54gamer: Gamerule keepInventory is now set to: true]
+[25Oct2025 01:01:21.758] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bozz has made the advancement [Monster Hunter]
+[25Oct2025 01:01:43.033] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: cat54gamer has completed the challenge [Free Willy]
+[25Oct2025 01:02:15.185] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: cat54gamer was impaled by Drowned
+[25Oct2025 01:02:26.180] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: cat54gamer was slain by Drowned
+[25Oct2025 01:02:30.486] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bozz was impaled by Drowned
+[25Oct2025 01:02:40.884] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: cat54gamer was impaled by Drowned
+[25Oct2025 01:02:45.437] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bozz was impaled by Drowned
+[25Oct2025 01:02:50.285] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: cat54gamer has made the advancement [Suit Up]
+[25Oct2025 01:03:43.288] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: cat54gamer has made the advancement [Sweet Dreams]
+[25Oct2025 01:03:48.053] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bozz has made the advancement [Sweet Dreams]
+[25Oct2025 01:03:49.373] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cat54gamer> ZZZZZZ
+[25Oct2025 01:03:50.787] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cat54gamer> zzzz
+[25Oct2025 01:03:51.849] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cat54gamer> zzz
+[25Oct2025 01:03:53.655] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cat54gamer> zz
+[25Oct2025 01:03:53.895] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Bozz> ZZZZZZ
+[25Oct2025 01:03:54.972] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cat54gamer> z
+[25Oct2025 01:05:09.990] [Worker-Main-9/WARN] [net.minecraft.server.level.WorldGenRegion/]: Tried to access a block entity before it was created. BlockPos{x=380, y=-39, z=349}
+[25Oct2025 01:05:13.865] [Worker-Main-16/WARN] [net.minecraft.server.level.WorldGenRegion/]: Tried to access a block entity before it was created. BlockPos{x=394, y=-39, z=363}
+[25Oct2025 01:05:18.962] [Server thread/ERROR] [noobanidus.mods.lootr.api.LootrAPI/]: There are over 100 entries in the conversion list without aggressive mode enabled. This may cause TPS issues. If TPS issues persist after first launch, consider enabling aggressive mode in the configuration.
+[25Oct2025 01:06:02.844] [Worker-Main-11/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=3, y=-55, z=18}
+[25Oct2025 01:08:34.306] [Worker-Main-11/WARN] [net.minecraft.server.level.WorldGenRegion/]: Tried to access a block entity before it was created. BlockPos{x=-438, y=-17, z=751}
+[25Oct2025 01:08:34.308] [Worker-Main-11/WARN] [net.minecraft.server.level.WorldGenRegion/]: Tried to access a block entity before it was created. BlockPos{x=-446, y=-6, z=738}
+[25Oct2025 01:08:37.627] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: cat54gamer moved too quickly! -5.00036067556465,-5.535840625044557,6.821134040782226
+[25Oct2025 01:08:40.255] [Worker-Main-11/WARN] [net.minecraft.server.level.WorldGenRegion/]: Tried to access a block entity before it was created. BlockPos{x=-438, y=-17, z=755}
+[25Oct2025 01:08:40.344] [Worker-Main-16/WARN] [net.minecraft.server.level.WorldGenRegion/]: Tried to access a block entity before it was created. BlockPos{x=-416, y=-20, z=765}
+[25Oct2025 01:08:40.360] [Worker-Main-11/WARN] [net.minecraft.server.level.WorldGenRegion/]: Tried to access a block entity before it was created. BlockPos{x=-430, y=-17, z=756}
+[25Oct2025 01:09:02.324] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Bozz moved too quickly! 4.022607110571641,0.36809686001799946,9.298775616762896
+[25Oct2025 01:09:02.332] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3557ms or 71 ticks behind
+[25Oct2025 01:09:53.987] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -10.030678694856988,0.0,2.746894350417392
+[25Oct2025 01:09:53.988] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -10.416474025582716,0.0,2.8525441503654747
+[25Oct2025 01:09:53.989] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -10.802269356227669,0.0,2.9581939506909976
+[25Oct2025 01:09:53.990] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -11.188064686799862,0.0,3.063843751356103
+[25Oct2025 01:09:53.990] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -11.573860017306629,0.0,3.1694935523269123
+[25Oct2025 01:09:53.991] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -11.959655347754449,0.0,3.275143353572844
+[25Oct2025 01:09:53.991] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -12.345450678149234,0.0,3.3807931550663852
+[25Oct2025 01:09:53.992] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -12.731246008496328,0.0,3.486442956782753
+[25Oct2025 01:09:53.992] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -13.117041338800448,0.0,3.592092758699664
+[25Oct2025 01:09:53.993] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -13.502836669065914,0.0,3.69774256079711
+[25Oct2025 01:09:53.993] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -13.888631999296592,0.0,3.8033923630570143
+[25Oct2025 01:09:53.994] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -14.27442732949595,0.0,3.90904216546312
+[25Oct2025 01:09:53.995] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -14.66022265966717,0.0,4.014691968000761
+[25Oct2025 01:09:53.996] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -15.04601798981298,0.0,4.120341770656864
+[25Oct2025 01:09:53.996] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -15.431813319935998,0.0,4.225991573419606
+[25Oct2025 01:09:53.997] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -15.817608650038494,0.0,4.331641376278185
+[25Oct2025 01:09:54.001] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -16.20340398012246,0.0,4.437291179223166
+[25Oct2025 01:09:54.001] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -16.589199310189827,0.0,4.542940982245796
+[25Oct2025 01:09:54.002] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -16.974994640242187,0.0,4.648590785338342
+[25Oct2025 01:09:54.002] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -17.360789970281076,0.0,4.754240588493872
+[25Oct2025 01:09:54.003] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -17.746585300307856,0.0,4.859890391706017
+[25Oct2025 01:09:54.003] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -18.132380630323723,0.0,4.965540194969208
+[25Oct2025 01:09:54.004] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -18.518175960329756,0.0,5.071189998278214
+[25Oct2025 01:09:54.004] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -18.903971290326922,0.0,5.176839801628489
+[25Oct2025 01:09:54.005] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -19.28976662031613,0.0,5.28248960501594
+[25Oct2025 01:09:54.005] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -19.675561950298174,0.0,5.388139408436814
+[25Oct2025 01:09:54.006] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -20.061357280273796,0.0,5.493789211887815
+[25Oct2025 01:09:54.006] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -20.44715261024362,0.0,5.599439015365988
+[25Oct2025 01:09:54.006] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -20.832947940208214,0.0,5.705088818868489
+[25Oct2025 01:09:54.009] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -21.21874327016809,0.0,5.8107386223929325
+[25Oct2025 01:09:54.012] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -21.60453860012376,0.0,5.916388425937157
+[25Oct2025 01:09:54.012] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -21.99033393007562,0.0,6.022038229499117
+[25Oct2025 01:09:54.013] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -22.376129260024072,0.0,6.127688033077106
+[25Oct2025 01:09:54.013] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -22.761924589969396,0.0,6.2333378366694205
+[25Oct2025 01:09:54.015] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -23.147719919911935,0.0,6.338987640274695
+[25Oct2025 01:09:54.016] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -23.53351524985203,0.0,6.444637443891679
+[25Oct2025 01:09:54.017] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -23.91931057978985,0.0,6.5502872475191225
+[25Oct2025 01:09:54.017] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3092ms or 61 ticks behind
+[25Oct2025 01:09:54.054] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -14.660222545684178,0.0,4.014692500267415
+[25Oct2025 01:10:06.472] [Worker-Main-16/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=3, y=-55, z=18}
+[25Oct2025 01:10:33.315] [Worker-Main-16/WARN] [net.minecraft.server.level.WorldGenRegion/]: Tried to access a block entity before it was created. BlockPos{x=-796, y=-22, z=785}
+[25Oct2025 01:10:59.405] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2530ms or 50 ticks behind
+[25Oct2025 01:14:17.138] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity ZombieVillager['Captain'/11360, l='ServerLevel[world]', x=-583.89, y=55.13, z=790.68] died: Captain was slain by cat54gamer
+[25Oct2025 01:14:34.440] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity ZombieVillager['Crew'/11363, l='ServerLevel[world]', x=-584.20, y=67.00, z=805.33] died: Crew was slain by cat54gamer
+[25Oct2025 01:14:52.640] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: cat54gamer has made the advancement [Pirate]
+[25Oct2025 01:17:06.543] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2668ms or 53 ticks behind
+[25Oct2025 01:17:06.576] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -10.367874489999735,0.0,0.816769599299846
+[25Oct2025 01:17:06.577] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -10.766638893459117,0.0,0.8481838147035887
+[25Oct2025 01:17:06.577] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -11.165403296918498,0.0,0.8795980301083546
+[25Oct2025 01:17:06.578] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -11.56416770037788,0.0,0.9110122455140299
+[25Oct2025 01:17:06.578] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -11.962932103837147,0.0,0.9424264609205011
+[25Oct2025 01:17:06.579] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -12.361696507296415,0.0,0.9738406763276544
+[25Oct2025 01:17:06.579] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -12.760460910755683,0.0,1.0052548917354898
+[25Oct2025 01:17:06.579] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -13.15922531421495,0.0,1.0366691071440073
+[25Oct2025 01:17:06.580] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -13.557989717674104,0.0,1.0680833225529796
+[25Oct2025 01:17:06.580] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -13.956754121133258,0.0,1.0994975379624066
+[25Oct2025 01:17:06.581] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -14.355518524592412,0.0,1.1309117533722883
+[25Oct2025 01:17:06.581] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -14.754282928051566,0.0,1.1623259687826248
+[25Oct2025 01:17:06.581] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -15.15304733151072,0.0,1.1937401841933024
+[25Oct2025 01:17:06.582] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -15.551811734969874,0.0,1.225154399604321
+[25Oct2025 01:17:06.582] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -15.950576138428914,0.0,1.256568615015567
+[25Oct2025 01:17:06.583] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -16.349340541887955,0.0,1.2879828304270404
+[25Oct2025 01:17:06.583] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -16.748104945346995,0.0,1.3193970458387412
+[25Oct2025 01:17:06.583] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -17.146869348806035,0.0,1.3508112612506693
+[25Oct2025 01:17:06.584] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -17.545633752265076,0.0,1.3822254766628248
+[25Oct2025 01:17:06.584] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -17.944398155724116,0.0,1.413639692075094
+[25Oct2025 01:17:06.585] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -18.343162559183156,0.0,1.4450539074875905
+[25Oct2025 01:17:06.585] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -18.741926962642196,0.0,1.4764681229002008
+[25Oct2025 01:17:06.586] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -19.140691366101237,0.0,1.5078823383129247
+[25Oct2025 01:17:06.586] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -19.539455769560277,0.0,1.5392965537257624
+[25Oct2025 01:17:06.586] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -19.938220173019317,0.0,1.5707107691387137
+[25Oct2025 01:17:06.587] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -20.336984576478358,0.0,1.6021249845517787
+[25Oct2025 01:17:06.588] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -20.735748979937398,0.0,1.6335391999648436
+[25Oct2025 01:17:06.589] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -21.13451338339644,0.0,1.6649534153780223
+[25Oct2025 01:17:06.589] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -21.53327778685548,0.0,1.696367630791201
+[25Oct2025 01:17:06.590] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -21.93204219031452,0.0,1.7277818462044934
+[25Oct2025 01:17:06.692] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -12.361696507233319,0.0,0.9738406777205455
+[25Oct2025 01:17:43.767] [Worker-Main-11/WARN] [net.minecraft.server.level.WorldGenRegion/]: Tried to access a block entity before it was created. BlockPos{x=-7, y=-15, z=830}
+[25Oct2025 01:17:45.692] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -10.021937186257219,0.0,-2.7786164625317724
+[25Oct2025 01:17:45.693] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -10.407396308805573,0.0,-2.885486326475302
+[25Oct2025 01:17:45.694] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -10.792855431353928,0.0,-2.992356190418832
+[25Oct2025 01:17:45.694] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -11.178314553902283,0.0,-3.0992260543623615
+[25Oct2025 01:17:45.697] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -11.563773676450637,0.0,-3.2060959183058912
+[25Oct2025 01:17:45.697] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -11.949232798998992,0.0,-3.312965782249421
+[25Oct2025 01:17:45.698] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -12.334691921547346,0.0,-3.4198356461929507
+[25Oct2025 01:17:45.698] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -12.7201510440957,0.0,-3.5267055101364804
+[25Oct2025 01:17:45.698] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -13.105610166644055,0.0,-3.63357537408001
+[25Oct2025 01:17:45.700] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -13.49106928919241,0.0,-3.74044523802354
+[25Oct2025 01:17:45.701] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -13.876528411740765,0.0,-3.8473151019670695
+[25Oct2025 01:17:45.702] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -14.26198753428912,0.0,-3.954184965910599
+[25Oct2025 01:17:45.703] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -14.647446656837474,0.0,-4.061054829854129
+[25Oct2025 01:17:45.704] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -15.032905779385828,0.0,-4.167924693797659
+[25Oct2025 01:17:45.705] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -15.418364901934183,0.0,-4.274794557741188
+[25Oct2025 01:17:45.705] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -15.803824024482537,0.0,-4.381664421684718
+[25Oct2025 01:17:45.705] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -16.189283147030892,0.0,-4.488534285628248
+[25Oct2025 01:17:45.706] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -16.574742269579247,0.0,-4.5954041495717775
+[25Oct2025 01:17:45.706] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -16.9602013921276,0.0,-4.702274013515307
+[25Oct2025 01:17:45.708] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -17.345660514675956,0.0,-4.809143877458837
+[25Oct2025 01:17:45.710] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -17.73111963722431,0.0,-4.916013741402367
+[25Oct2025 01:17:45.710] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -18.116578759772665,0.0,-5.022883605345896
+[25Oct2025 01:17:45.711] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -18.50203788232102,0.0,-5.129753469289426
+[25Oct2025 01:17:45.712] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -18.887497004869374,0.0,-5.236623333232956
+[25Oct2025 01:17:45.712] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -19.27295612741773,0.0,-5.343493197176485
+[25Oct2025 01:17:45.713] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -19.658415249966083,0.0,-5.450363061120015
+[25Oct2025 01:17:45.713] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -20.043874372514438,0.0,-5.557232925063545
+[25Oct2025 01:17:45.713] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -20.429333495062792,0.0,-5.6641027890070745
+[25Oct2025 01:17:45.713] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -20.814792617611147,0.0,-5.770972652950604
+[25Oct2025 01:17:45.714] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -21.2002517401595,0.0,-5.877842516894134
+[25Oct2025 01:17:45.714] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -21.585710862707856,0.0,-5.984712380837664
+[25Oct2025 01:17:45.714] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -21.97116998525621,0.0,-6.091582244781193
+[25Oct2025 01:17:45.715] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -22.356629107804565,0.0,-6.198452108724723
+[25Oct2025 01:17:45.715] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -22.74208823035292,0.0,-6.305321972668253
+[25Oct2025 01:17:45.715] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -23.127547352901274,0.0,-6.4121918366117825
+[25Oct2025 01:17:45.715] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -23.51300647544963,0.0,-6.519061700555312
+[25Oct2025 01:17:45.716] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -23.898465597997983,0.0,-6.625931564498842
+[25Oct2025 01:17:45.716] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -24.28373238753352,0.0,-6.733472356950415
+[25Oct2025 01:17:45.716] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -24.668428275962924,0.0,-6.842882780013269
+[25Oct2025 01:17:45.717] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -25.05221714156869,0.0,-6.955101810703468
+[25Oct2025 01:17:45.717] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -25.43480709189066,0.0,-7.070851868473369
+[25Oct2025 01:17:45.717] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -25.81595076819235,0.0,-7.19067373300652
+[25Oct2025 01:17:45.718] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -26.195443581746986,0.0,-7.314957623780629
+[25Oct2025 01:17:45.718] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -26.573120397960793,0.0,-7.443970773998217
+[25Oct2025 01:17:45.718] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -26.948856240120904,0.0,-7.577871539708099
+[25Oct2025 01:17:45.719] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -27.322557572289497,0.0,-7.71673906671208
+[25Oct2025 01:17:45.719] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -27.694161997622814,0.0,-7.860582470739473
+[25Oct2025 01:17:45.719] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -28.063633970993806,0.0,-8.009355752972397
+[25Oct2025 01:17:45.719] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -28.430962214403507,0.0,-8.162967630976254
+[25Oct2025 01:17:45.720] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -28.79615317009575,0.0,-8.321296866678836
+[25Oct2025 01:17:45.720] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -29.159230394548786,0.0,-8.484195880333232
+[25Oct2025 01:17:45.720] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -29.52023190082764,0.0,-8.651497238498337
+[25Oct2025 01:17:45.722] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -29.87920755435971,0.0,-8.823019383326027
+[25Oct2025 01:17:45.722] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -30.236216539143243,0.0,-8.998571695786154
+[25Oct2025 01:17:45.724] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -30.591324913422113,0.0,-9.177958955712143
+[25Oct2025 01:17:45.725] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -30.944603271957476,0.0,-9.360985288786651
+[25Oct2025 01:17:45.725] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -31.29612662392674,0.0,-9.54745443498473
+[25Oct2025 01:17:45.725] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -31.645974242054763,0.0,-9.737169962233338
+[25Oct2025 01:17:45.726] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4101ms or 82 ticks behind
+[25Oct2025 01:17:45.775] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -22.357747205115857,0.0,-7.258195256439876
+[25Oct2025 01:17:46.841] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: Drowned['Drowned'/15361, l='ServerLevel[world]', x=-989.50, y=24.00, z=651.50]
+[25Oct2025 01:17:52.210] [Worker-Main-11/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=3, y=-55, z=18}
+[25Oct2025 01:18:42.544] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: cat54gamer has made the advancement [What a Deal!]
+[25Oct2025 01:18:43.251] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: cat54gamer has reached the goal [Marine Helmet]
+[25Oct2025 01:18:43.563] [Server thread/WARN] [net.minecraft.world.level.storage.loot.LootTable/]: Tried to over-fill a container
+[25Oct2025 01:18:52.241] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bozz has made the advancement [Suit Up]
+[25Oct2025 01:19:26.807] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Bozz> zzzzz
+[25Oct2025 01:20:18.170] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 12595ms or 251 ticks behind
+[25Oct2025 01:23:50.386] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: cat54gamer moved too quickly! -7.977911161239717,-1.57573246410945,-6.038081625795627
+[25Oct2025 01:23:50.386] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Bozz moved too quickly! -3.9933545500673517,0.7531999805212024,-9.217869077407045
+[25Oct2025 01:23:50.388] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 7562ms or 151 ticks behind
+[25Oct2025 01:24:05.158] [Worker-Main-16/ERROR] [net.minecraft.world.level.levelgen.structure.templatesystem.StructureTemplateManager/]: Couldn't load structure mvs:houses/large_floating_island
+net.minecraft.ReportedException: Loading NBT data
+	at net.minecraft.nbt.CompoundTag.m_128413_(CompoundTag.java:480) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
+	at net.minecraft.nbt.CompoundTag$1.m_7300_(CompoundTag.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
+	at net.minecraft.nbt.CompoundTag$1.m_7300_(CompoundTag.java:32) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
+	at net.minecraft.nbt.ListTag$1.m_7300_(ListTag.java:43) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
+	at net.minecraft.nbt.ListTag$1.m_7300_(ListTag.java:26) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
+	at net.minecraft.nbt.CompoundTag.m_128413_(CompoundTag.java:474) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
+	at net.minecraft.nbt.CompoundTag$1.m_7300_(CompoundTag.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
+	at net.minecraft.nbt.CompoundTag$1.m_7300_(CompoundTag.java:32) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
+	at net.minecraft.nbt.NbtIo.m_128930_(NbtIo.java:153) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
+	at net.minecraft.nbt.NbtIo.m_128934_(NbtIo.java:99) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
+	at net.minecraft.nbt.NbtIo.m_128939_(NbtIo.java:35) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
+	at net.minecraft.world.level.levelgen.structure.templatesystem.StructureTemplateManager.m_230377_(StructureTemplateManager.java:227) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
+	at net.minecraft.world.level.levelgen.structure.templatesystem.StructureTemplateManager.m_230372_(StructureTemplateManager.java:217) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
+	at net.minecraft.world.level.levelgen.structure.templatesystem.StructureTemplateManager.m_230427_(StructureTemplateManager.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
+	at net.minecraft.world.level.levelgen.structure.templatesystem.StructureTemplateManager.m_230425_(StructureTemplateManager.java:108) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
+	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1740) ~[?:?]
+	at net.minecraft.world.level.levelgen.structure.templatesystem.StructureTemplateManager.m_230407_(StructureTemplateManager.java:98) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
+	at net.minecraft.world.level.levelgen.structure.templatesystem.StructureTemplateManager.m_230359_(StructureTemplateManager.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at net.minecraft.world.level.levelgen.structure.pools.SinglePoolElement.m_227299_(SinglePoolElement.java:81) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
+	at net.minecraft.world.level.levelgen.structure.pools.SinglePoolElement.m_214015_(SinglePoolElement.java:115) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
+	at com.finndog.mvs.world.structures.pieces.PieceLimitedJigsawManager.assembleJigsawStructure(PieceLimitedJigsawManager.java:106) ~[mvs-4.1.5-1.20.jar%23154!/:?]
+	at com.finndog.mvs.world.structures.GenericJigsawStructure.m_214086_(GenericJigsawStructure.java:213) ~[mvs-4.1.5-1.20.jar%23154!/:?]
+	at net.minecraft.world.level.levelgen.structure.Structure.m_262864_(Structure.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
+	at net.minecraft.world.level.levelgen.structure.Structure.m_226596_(Structure.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
+	at net.minecraft.world.level.chunk.ChunkGenerator.m_223104_(ChunkGenerator.java:513) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
+	at net.minecraft.world.level.chunk.ChunkGenerator.m_254811_(ChunkGenerator.java:466) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraft.world.level.chunk.ChunkGenerator.m_255037_(ChunkGenerator.java:448) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
+	at net.minecraft.world.level.chunk.ChunkStatus.m_289181_(ChunkStatus.java:54) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
+	at net.minecraft.world.level.chunk.ChunkStatus.m_280308_(ChunkStatus.java:252) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
+	at net.minecraft.server.level.ChunkMap.lambda$scheduleChunkGeneration$27(ChunkMap.java:643) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at net.minecraft.server.level.ChunkMap.lambda$scheduleChunkGeneration$29(ChunkMap.java:634) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.level.ChunkTaskPriorityQueueSorter.m_143188_(ChunkTaskPriorityQueueSorter.java:62) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
+	at net.minecraft.util.thread.ProcessorMailbox.m_18759_(ProcessorMailbox.java:91) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
+	at net.minecraft.util.thread.ProcessorMailbox.m_18747_(ProcessorMailbox.java:146) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
+	at net.minecraft.util.thread.ProcessorMailbox.run(ProcessorMailbox.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
+	at java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1395) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+Caused by: java.io.IOException: Invalid tag id: 16
+	at net.minecraft.nbt.TagType$1.m_197591_(TagType.java:58) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
+	at net.minecraft.nbt.TagType$1.m_7300_(TagType.java:63) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
+	at net.minecraft.nbt.TagType$1.m_7300_(TagType.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
+	at net.minecraft.nbt.CompoundTag.m_128413_(CompoundTag.java:474) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
+	... 45 more
+[25Oct2025 01:24:22.452] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: cat54gamer has made the advancement [Disme A Dozen]
+[25Oct2025 01:24:28.753] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bozz has made the advancement [Disme A Dozen]
+[25Oct2025 01:25:05.956] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: cat54gamer has made the advancement [Ice Bucket Challenge]
+[25Oct2025 01:25:13.203] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bozz has made the advancement [Ice Bucket Challenge]
+[25Oct2025 01:28:54.599] [Worker-Main-11/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=3, y=-55, z=18}
+[25Oct2025 01:29:37.860] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: cat54gamer moved wrongly!
+[25Oct2025 01:30:58.249] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: cat54gamer has made the advancement [Close Quarters]
+[25Oct2025 01:32:44.205] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bozz has made the advancement [Knight Quest]
+[25Oct2025 01:32:48.725] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: cat54gamer has completed the challenge [It Spreads]
+[25Oct2025 01:33:03.854] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [cat54gamer: Teleported cat54gamer to Bozz]
+[25Oct2025 01:34:53.850] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bozz has made the advancement [Close Quarters]
+[25Oct2025 01:35:54.527] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity arphex:moth_shadow_clone but it was marked as removed already
+[25Oct2025 01:37:40.957] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Librarian'/24623, l='ServerLevel[world]', x=-1835.46, y=72.25, z=63.26] died, message: 'Librarian was slain by Bozz'
+[25Oct2025 01:43:29.032] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: cat54gamer moved too quickly! -10.170741288257432,1.127890238205481,-0.5160162469299507
+[25Oct2025 01:43:29.033] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Bozz moved too quickly! -9.694372769400843,-2.0013359791121417,2.2116540881456785
+[25Oct2025 01:43:29.040] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2065ms or 41 ticks behind
+[25Oct2025 01:43:29.199] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-274, y=25, z=-20}
+[25Oct2025 01:43:29.199] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-275, y=25, z=-21}
+[25Oct2025 01:43:29.200] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-274, y=25, z=-24}
+[25Oct2025 01:43:29.200] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-275, y=25, z=-23}
+[25Oct2025 01:43:29.200] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-275, y=25, z=-24}
+[25Oct2025 01:43:29.200] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-270, y=28, z=-22}
+[25Oct2025 01:43:29.200] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-270, y=22, z=-22}
+[25Oct2025 01:43:33.840] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-245, y=25, z=-23}
+[25Oct2025 01:43:33.840] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-252, y=22, z=-20}
+[25Oct2025 01:48:27.786] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: cat54gamer was slain by Thrasher
+[25Oct2025 01:48:35.249] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [cat54gamer: Teleported cat54gamer to Bozz]
+[25Oct2025 01:49:36.033] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=124, y=-23, z=87}
+[25Oct2025 01:49:36.034] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=114, y=-23, z=87}
+[25Oct2025 01:49:42.365] [Worker-Main-10/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=124, y=-23, z=87}
+[25Oct2025 01:49:42.365] [Worker-Main-10/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=114, y=-23, z=87}
+[25Oct2025 01:50:25.936] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: cat54gamer was shot by Pillager
+[25Oct2025 01:50:28.721] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [cat54gamer: Teleported cat54gamer to Bozz]
+[25Oct2025 01:51:52.521] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: cat54gamer has made the advancement [Isn't It Iron Pick]
+[25Oct2025 01:54:21.139] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: cat54gamer has completed the challenge [Find: Ocean quad]
+[25Oct2025 01:54:43.385] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bozz has completed the challenge [Find: Ocean quad]
+[25Oct2025 01:57:45.317] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: cat54gamer has made the advancement [Alex's Mobs]
+[25Oct2025 01:58:31.622] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Bozz) moved too quickly! -10.200424114682392,0.0,1.9303767489076904
+[25Oct2025 02:00:30.027] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Bozz moved too quickly! 2.1038760507303778,-1.0,-9.745585887446452
+[25Oct2025 02:00:30.036] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 7961ms or 159 ticks behind
+[25Oct2025 02:00:51.095] [Worker-Main-16/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-393, y=47, z=-738}
+[25Oct2025 02:00:51.096] [Worker-Main-16/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-394, y=47, z=-739}
+[25Oct2025 02:00:51.096] [Worker-Main-16/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-394, y=47, z=-737}
+[25Oct2025 02:00:51.096] [Worker-Main-16/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-398, y=43, z=-740}
+[25Oct2025 02:00:51.096] [Worker-Main-16/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-397, y=44, z=-741}
+[25Oct2025 02:00:51.097] [Worker-Main-16/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-398, y=52, z=-741}
+[25Oct2025 02:00:51.097] [Worker-Main-16/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-394, y=48, z=-739}
+[25Oct2025 02:00:51.097] [Worker-Main-16/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-393, y=48, z=-738}
+[25Oct2025 02:00:51.518] [Worker-Main-10/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-395, y=47, z=-724}
+[25Oct2025 02:00:51.518] [Worker-Main-10/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-395, y=47, z=-721}
+[25Oct2025 02:00:51.519] [Worker-Main-10/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-389, y=47, z=-721}
+[25Oct2025 02:00:51.519] [Worker-Main-10/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-389, y=47, z=-724}
+[25Oct2025 02:00:51.519] [Worker-Main-10/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-394, y=47, z=-726}
+[25Oct2025 02:00:51.519] [Worker-Main-10/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-390, y=47, z=-726}
+[25Oct2025 02:00:51.519] [Worker-Main-10/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-389, y=47, z=-729}
+[25Oct2025 02:00:51.520] [Worker-Main-10/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-395, y=47, z=-729}
+[25Oct2025 02:00:51.522] [Worker-Main-10/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-391, y=48, z=-732}
+[25Oct2025 02:00:51.523] [Worker-Main-10/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-394, y=47, z=-731}
+[25Oct2025 02:00:51.523] [Worker-Main-10/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-392, y=47, z=-736}
+[25Oct2025 02:00:51.523] [Worker-Main-10/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-394, y=49, z=-726}
+[25Oct2025 02:00:51.523] [Worker-Main-10/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-395, y=49, z=-727}
+[25Oct2025 02:00:51.523] [Worker-Main-10/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-394, y=49, z=-721}
+[25Oct2025 02:00:51.523] [Worker-Main-10/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-389, y=49, z=-721}
+[25Oct2025 02:00:51.523] [Worker-Main-10/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-389, y=49, z=-724}
+[25Oct2025 02:00:51.524] [Worker-Main-10/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-389, y=47, z=-728}
+[25Oct2025 02:00:51.524] [Worker-Main-10/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-389, y=49, z=-726}
+[25Oct2025 02:00:51.524] [Worker-Main-10/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-389, y=49, z=-729}
+[25Oct2025 02:00:51.524] [Worker-Main-10/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-395, y=48, z=-722}
+[25Oct2025 02:00:51.595] [Worker-Main-10/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-389, y=47, z=-706}
+[25Oct2025 02:00:51.595] [Worker-Main-10/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-390, y=47, z=-709}
+[25Oct2025 02:00:51.597] [Worker-Main-10/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-395, y=49, z=-706}
+[25Oct2025 02:00:51.598] [Worker-Main-10/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-389, y=49, z=-706}
+[25Oct2025 02:00:51.598] [Worker-Main-10/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-390, y=49, z=-709}
+[25Oct2025 02:00:51.598] [Worker-Main-10/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-394, y=49, z=-709}
+[25Oct2025 02:00:51.599] [Worker-Main-10/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-395, y=49, z=-707}
+[25Oct2025 02:00:51.599] [Worker-Main-10/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-389, y=47, z=-708}
+[25Oct2025 02:00:51.599] [Worker-Main-10/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-396, y=52, z=-712}
+[25Oct2025 02:00:51.599] [Worker-Main-10/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-399, y=56, z=-718}
+[25Oct2025 02:00:51.600] [Worker-Main-10/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-398, y=56, z=-718}
+[25Oct2025 02:00:51.600] [Worker-Main-10/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-397, y=56, z=-718}
+[25Oct2025 02:00:51.600] [Worker-Main-10/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-397, y=57, z=-718}
+[25Oct2025 02:00:51.600] [Worker-Main-10/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-398, y=57, z=-718}
+[25Oct2025 02:00:51.601] [Worker-Main-10/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-399, y=57, z=-718}
+[25Oct2025 02:00:51.868] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-392, y=47, z=-691}
+[25Oct2025 02:00:51.869] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-392, y=47, z=-690}
+[25Oct2025 02:00:51.869] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-394, y=47, z=-701}
+[25Oct2025 02:00:51.869] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-389, y=47, z=-704}
+[25Oct2025 02:00:51.869] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-394, y=47, z=-704}
+[25Oct2025 02:00:51.869] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-394, y=47, z=-696}
+[25Oct2025 02:00:51.870] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-395, y=47, z=-699}
+[25Oct2025 02:00:51.870] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-389, y=47, z=-696}
+[25Oct2025 02:00:51.870] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-390, y=47, z=-699}
+[25Oct2025 02:00:51.870] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-391, y=43, z=-693}
+[25Oct2025 02:00:51.870] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-393, y=41, z=-699}
+[25Oct2025 02:00:51.870] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-393, y=41, z=-698}
+[25Oct2025 02:00:51.870] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-393, y=41, z=-697}
+[25Oct2025 02:00:51.871] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-395, y=49, z=-701}
+[25Oct2025 02:00:51.872] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-390, y=49, z=-704}
+[25Oct2025 02:00:51.872] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-395, y=49, z=-704}
+[25Oct2025 02:00:51.872] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-389, y=47, z=-703}
+[25Oct2025 02:00:51.872] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-389, y=47, z=-698}
+[25Oct2025 02:00:51.872] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-389, y=49, z=-699}
+[25Oct2025 02:00:51.872] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-394, y=49, z=-696}
+[25Oct2025 02:00:51.872] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-389, y=49, z=-696}
+[25Oct2025 02:00:51.873] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-395, y=49, z=-699}
+[25Oct2025 02:00:51.873] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-395, y=47, z=-693}
+[25Oct2025 02:00:51.873] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-395, y=49, z=-690}
+[25Oct2025 02:00:51.873] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-397, y=53, z=-704}
+[25Oct2025 02:00:51.873] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-395, y=48, z=-697}
+[25Oct2025 02:00:51.873] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-395, y=48, z=-702}
+[25Oct2025 02:00:52.035] [Worker-Main-10/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-395, y=44, z=-674}
+[25Oct2025 02:00:52.036] [Worker-Main-10/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-391, y=61, z=-681}
+[25Oct2025 02:00:52.036] [Worker-Main-10/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-392, y=48, z=-687}
+[25Oct2025 02:00:52.036] [Worker-Main-10/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-395, y=47, z=-688}
+[25Oct2025 02:00:52.080] [Worker-Main-10/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-399, y=56, z=-669}
+[25Oct2025 02:00:52.081] [Worker-Main-10/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-399, y=60, z=-667}
+[25Oct2025 02:00:52.081] [Worker-Main-10/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-399, y=60, z=-665}
+[25Oct2025 02:00:52.082] [Worker-Main-10/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-399, y=68, z=-671}
+[25Oct2025 02:00:55.420] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-403, y=43, z=-738}
+[25Oct2025 02:00:55.421] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-404, y=52, z=-743}
+[25Oct2025 02:00:55.421] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-403, y=52, z=-738}
+[25Oct2025 02:00:55.421] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-401, y=53, z=-744}
+[25Oct2025 02:00:55.422] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-400, y=43, z=-740}
+[25Oct2025 02:00:55.422] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-400, y=52, z=-742}
+[25Oct2025 02:00:55.423] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-400, y=53, z=-744}
+[25Oct2025 02:00:55.748] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-407, y=47, z=-732}
+[25Oct2025 02:00:55.748] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-405, y=47, z=-735}
+[25Oct2025 02:00:55.748] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-404, y=47, z=-729}
+[25Oct2025 02:00:55.748] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-409, y=47, z=-726}
+[25Oct2025 02:00:55.749] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-404, y=47, z=-721}
+[25Oct2025 02:00:55.749] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-409, y=47, z=-721}
+[25Oct2025 02:00:55.749] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-409, y=47, z=-724}
+[25Oct2025 02:00:55.749] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-404, y=47, z=-724}
+[25Oct2025 02:00:55.749] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-404, y=42, z=-730}
+[25Oct2025 02:00:55.750] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-402, y=43, z=-729}
+[25Oct2025 02:00:55.752] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-407, y=48, z=-732}
+[25Oct2025 02:00:55.752] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-406, y=47, z=-735}
+[25Oct2025 02:00:55.752] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-404, y=47, z=-731}
+[25Oct2025 02:00:55.753] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-409, y=49, z=-729}
+[25Oct2025 02:00:55.753] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-409, y=49, z=-726}
+[25Oct2025 02:00:55.753] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-403, y=49, z=-726}
+[25Oct2025 02:00:55.753] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-404, y=49, z=-729}
+[25Oct2025 02:00:55.753] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-409, y=47, z=-722}
+[25Oct2025 02:00:55.753] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-409, y=49, z=-724}
+[25Oct2025 02:00:55.754] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-403, y=49, z=-723}
+[25Oct2025 02:00:55.754] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-403, y=49, z=-721}
+[25Oct2025 02:00:55.754] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-404, y=49, z=-724}
+[25Oct2025 02:00:55.798] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-403, y=48, z=-728}
+[25Oct2025 02:00:56.017] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-404, y=47, z=-709}
+[25Oct2025 02:00:56.017] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-409, y=47, z=-706}
+[25Oct2025 02:00:56.017] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-404, y=47, z=-706}
+[25Oct2025 02:00:56.017] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-408, y=47, z=-709}
+[25Oct2025 02:00:56.018] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-408, y=49, z=-706}
+[25Oct2025 02:00:56.018] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-403, y=49, z=-708}
+[25Oct2025 02:00:56.018] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-403, y=49, z=-706}
+[25Oct2025 02:00:56.019] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-409, y=49, z=-709}
+[25Oct2025 02:00:56.019] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-409, y=47, z=-707}
+[25Oct2025 02:00:56.068] [Worker-Main-10/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-404, y=47, z=-704}
+[25Oct2025 02:00:56.068] [Worker-Main-10/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-403, y=47, z=-699}
+[25Oct2025 02:00:56.068] [Worker-Main-10/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-408, y=47, z=-699}
+[25Oct2025 02:00:56.068] [Worker-Main-10/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-409, y=47, z=-696}
+[25Oct2025 02:00:56.068] [Worker-Main-10/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-409, y=47, z=-701}
+[25Oct2025 02:00:56.068] [Worker-Main-10/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-403, y=47, z=-696}
+[25Oct2025 02:00:56.069] [Worker-Main-10/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-407, y=43, z=-692}
+[25Oct2025 02:00:56.069] [Worker-Main-10/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-403, y=41, z=-696}
+[25Oct2025 02:00:56.069] [Worker-Main-10/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-403, y=40, z=-701}
+[25Oct2025 02:00:56.069] [Worker-Main-10/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-403, y=40, z=-699}
+[25Oct2025 02:00:56.069] [Worker-Main-10/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-406, y=41, z=-696}
+[25Oct2025 02:00:56.070] [Worker-Main-10/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-405, y=39, z=-699}
+[25Oct2025 02:00:56.070] [Worker-Main-10/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-403, y=40, z=-698}
+[25Oct2025 02:00:56.070] [Worker-Main-10/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-404, y=49, z=-704}
+[25Oct2025 02:00:56.071] [Worker-Main-10/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-409, y=49, z=-704}
+[25Oct2025 02:00:56.071] [Worker-Main-10/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-408, y=49, z=-701}
+[25Oct2025 02:00:56.071] [Worker-Main-10/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-404, y=49, z=-701}
+[25Oct2025 02:00:56.071] [Worker-Main-10/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-409, y=49, z=-696}
+[25Oct2025 02:00:56.071] [Worker-Main-10/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-404, y=49, z=-696}
+[25Oct2025 02:00:56.072] [Worker-Main-10/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-409, y=49, z=-699}
+[25Oct2025 02:00:56.072] [Worker-Main-10/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-404, y=49, z=-699}
+[25Oct2025 02:00:56.072] [Worker-Main-10/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-409, y=47, z=-702}
+[25Oct2025 02:00:56.072] [Worker-Main-10/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-409, y=47, z=-697}
+[25Oct2025 02:00:56.072] [Worker-Main-10/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-408, y=48, z=-689}
+[25Oct2025 02:00:56.072] [Worker-Main-10/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-408, y=48, z=-692}
+[25Oct2025 02:00:56.072] [Worker-Main-10/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-401, y=53, z=-704}
+[25Oct2025 02:00:56.073] [Worker-Main-10/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-403, y=48, z=-698}
+[25Oct2025 02:00:56.073] [Worker-Main-10/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-403, y=48, z=-703}
+[25Oct2025 02:00:56.167] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-402, y=44, z=-674}
+[25Oct2025 02:00:56.168] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-408, y=60, z=-677}
+[25Oct2025 02:00:56.168] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-408, y=56, z=-680}
+[25Oct2025 02:00:56.169] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-400, y=67, z=-673}
+[25Oct2025 02:00:56.216] [Worker-Main-16/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-401, y=60, z=-659}
+[25Oct2025 02:00:56.217] [Worker-Main-16/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-403, y=63, z=-666}
+[25Oct2025 02:00:56.218] [Worker-Main-16/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-400, y=56, z=-668}
+[25Oct2025 02:00:56.218] [Worker-Main-16/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-400, y=60, z=-670}
+[25Oct2025 02:01:16.506] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-2951, y=62, z=133} but found not block entity block Block{minecraft:water}[level=0] at location
+[25Oct2025 02:01:16.507] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:water}[level=0] but failed at location BlockPos{x=-2951, y=62, z=133}
+[25Oct2025 02:02:45.755] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: cat54gamer moved too quickly! -2.865899303670176,-0.9986640208878583,9.793929902777563
+[25Oct2025 02:02:59.107] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bozz has made the advancement [Isn't It Iron Pick]
+[25Oct2025 02:04:11.522] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: cat54gamer burned to death
+[25Oct2025 02:04:15.560] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [cat54gamer: Teleported cat54gamer to Bozz]
+[25Oct2025 02:04:25.922] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [cat54gamer: The difficulty has been set to Peaceful]
+[25Oct2025 02:04:27.223] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [cat54gamer: The difficulty has been set to Normal]
+[25Oct2025 02:04:44.264] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [cat54gamer: The difficulty has been set to Peaceful]
+[25Oct2025 02:05:22.951] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [cat54gamer: The difficulty has been set to Normal]
+[25Oct2025 02:06:19.347] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [cat54gamer: Teleported cat54gamer to Bozz]
+[25Oct2025 02:06:57.088] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bozz was slain by Centipede Evictor Larvae
+[25Oct2025 02:07:06.817] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Bozz: Teleported Bozz to cat54gamer]
+[25Oct2025 02:08:22.788] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bozz was slain by Centipede Evictor
+[25Oct2025 02:08:29.771] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Bozz: Teleported Bozz to cat54gamer]
+[25Oct2025 02:09:06.566] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: cat54gamer was slain by Centipede Evictor Larvae
+[25Oct2025 02:09:09.401] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [cat54gamer: Teleported cat54gamer to Bozz]
+[25Oct2025 02:09:27.006] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [cat54gamer: Applied effect Strength to 2 targets]
+[25Oct2025 02:09:44.924] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [cat54gamer: Applied effect Strength to 2 targets]
+[25Oct2025 02:09:56.050] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: cat54gamer was slain by Bozz
+[25Oct2025 02:09:59.566] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [cat54gamer: Teleported cat54gamer to Bozz]
+[25Oct2025 02:11:01.536] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: cat54gamer was slain by Centipede Evictor Larvae
+[25Oct2025 02:11:04.271] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [cat54gamer: Teleported cat54gamer to Bozz]
+[25Oct2025 02:11:09.675] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [cat54gamer: Applied effect Strength to 2 targets]
+[25Oct2025 02:11:20.263] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bozz was slain by cat54gamer
+[25Oct2025 02:11:32.466] [Worker-Main-11/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=3, y=-55, z=18}
+[25Oct2025 02:11:36.098] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Bozz lost connection: Disconnected
+[25Oct2025 02:11:36.098] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bozz left the game
+[25Oct2025 02:11:38.263] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: cat54gamer lost connection: Disconnected
+[25Oct2025 02:11:38.263] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: cat54gamer left the game

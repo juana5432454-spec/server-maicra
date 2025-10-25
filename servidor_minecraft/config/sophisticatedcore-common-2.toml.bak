@@ -1,0 +1,5 @@
+
+#Common Settings
+[common]
+	enabledItems = ["sophisticatedbackpacks:anvil_upgrade|true", "sophisticatedbackpacks:advanced_pickup_upgrade|true", "sophisticatedbackpacks:jukebox_upgrade|true", "sophisticatedbackpacks:xp_pump_upgrade|true", "sophisticatedbackpacks:tank_upgrade|true", "sophisticatedbackpacks:iron_backpack|true"]
+
